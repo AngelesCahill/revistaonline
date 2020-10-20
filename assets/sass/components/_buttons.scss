@@ -1,0 +1,16 @@
+button {
+    width: 6rem;
+    border: 1px solid white;
+    background-color: black;
+    font-size: 1rem;
+    color: white;
+}
+
+button:hover {
+    background-color: #a8a9a8;
+}
+.nosotros {
+    @include respond-to ("small"){
+        display: none;
+    }
+}
